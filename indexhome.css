@@ -1,0 +1,198 @@
+* {
+    font-family: "Rubik", sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav {
+    background-color: #ffffff;
+    padding: 3px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.logo {
+    height: 5rem;
+    width: 19rem;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 5rem;
+    width: 5rem;
+    margin-right: -6px;
+}
+
+h2 {
+    color: rgb(0, 191, 255);
+}
+
+.ul {
+    cursor: pointer;
+    list-style-type: none;
+    display: flex;
+    margin-left: auto;
+}
+
+.buttons {
+    display: flex;
+    padding-right: 3rem;
+    align-items: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 191, 255);
+    border-radius: 5px;
+}
+
+.ul li {
+    padding-right: 3rem;
+}
+
+.ul li span {
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    width: 19rem;
+    height: 100vh;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: start;
+    z-index: 1; /* Ensure sidebar is on top */
+}
+
+.sidebar ul {
+    display: block;
+    padding-left: 5px;
+    line-height: 50px;
+    font-size: 20px;
+    color: black;
+}
+
+.sidebar ul li {
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 3px;
+    color: black;
+    box-sizing: border-box;
+}
+
+.sidebar ul li a {
+    color: black;
+}
+
+.sidebar ul li:hover {
+    background: #00c3ff;
+}
+
+.sidebar ul li span {
+    margin-right: 16px;
+}
+
+table {
+    margin-top: 5rem;
+    margin-left: 22rem;
+    width: 70vw;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+h1{
+    margin-left: 25rem;
+    margin-top: 2rem;
+    color: #00c3ff;
+}
+
+.boxes{
+    margin-left: 20rem;
+    margin-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 22rem;
+    margin-right: 3rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.boxes .box1{
+    box-sizing: border-box;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+    background: rgb(178, 232, 249);
+    border: 2px solid rgb(0, 191, 255);
+    padding-top: 1rem;
+    height: 10rem;
+}
+
+.boxes .box2{
+    box-sizing: border-box;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    border-radius: 5px;
+    background: rgb(147, 208, 147);
+    border: 2px solid green;
+    height: 10rem;
+}
+
+.boxes .box3{
+    box-sizing: border-box;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 1rem;
+    border-radius: 5px;
+    background: rgb(255, 218, 224);
+    border: 2px solid pink;
+    height: 10rem;
+}
+
+.btn2{
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin-top: 3rem;
+}
+
+.box1 .btn2{
+    border: 2px solid rgb(0, 191, 255);
+}
+
+.box2 .btn2{
+    border: 2px solid green;
+}
+
+.box3 .btn2{
+    border: 2px solid pink;
+}

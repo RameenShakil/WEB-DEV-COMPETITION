@@ -1,0 +1,61 @@
+.gradient-background {
+    background: linear-gradient(to bottom,#9eccdb, #448ba2, #00008B);
+    height: 593px;
+}
+
+.c-t-m{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.c-t-m .name{
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+}
+
+.log-sign{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+}
+
+
+.btn{
+    color: rgb(0, 0, 0);
+    margin: 2.5rem;
+    margin-left: 45px;
+    font-style: "Rubik";
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 25px;
+    background: rgb(0, 191, 255);
+    opacity: .5;
+}
+
+.btn:hover{
+    opacity: 1;
+}
+
+p{
+    font-size: 20px;
+}
+
+.log-sign p{
+    top: 10rem;
+    font-size: 35px;
+}
+
+a{
+    color: black;
+}

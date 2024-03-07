@@ -1,0 +1,148 @@
+ /* <uniquifier>: Use a unique and descriptive class name
+ <weight>: Use a value from 300 to 900  */
+
+.rubik-font {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.rubik-font-300 { font-weight: 300; }
+.rubik-font-400 { font-weight: 400; }
+.rubik-font-500 { font-weight: 500; }
+.rubik-font-600 { font-weight: 600; }
+.rubik-font-700 { font-weight: 700; }
+.rubik-font-800 { font-weight: 800; }
+.rubik-font-900 { font-weight: 900; }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik";
+}
+
+.h2 {
+    margin-top: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-left: 7rem;
+    font-size: 34px;
+    color: rgb(0, 191, 255);
+
+}
+
+.loginPage {
+    display: inline-block;
+    padding: 0rem 1rem;
+    vertical-align: middle;
+}
+
+.loginPage>img {
+    border-radius: 5px;
+    margin-top: -1000px;
+    margin-left: 45vw;
+    height: 120vh;
+    width: 650px;
+}
+
+
+.loginPage > img:nth-child(2) {
+   width: 35rem;
+   height: 20rem;
+   padding-left: 5rem;
+   margin-bottom: 20rem;
+
+}
+
+form {
+    margin-left: 100px;
+}
+
+.container>div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.container .h1 {
+    margin-bottom: 3rem;
+    gap: 10px;
+    display: flex;
+    text-align: center;
+}
+
+.container p{
+    margin-top: 2rem;
+    margin-right: 1rem;
+    text-align: center;
+}
+
+label {
+    display: block;
+    width: 15rem;
+    margin-bottom: 1rem;
+}
+
+input[type=text],
+input[type=tel],
+input[type=password] {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+
+input[type=text]:focus,
+input[type=password]:focus {
+
+    background-color: #ddd;
+    outline: none;
+}
+
+
+/* Set a style for all buttons */
+button {
+    background-color: rgb(79, 172, 179);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+
+/* Float cancel and signup buttons and add an equal width */
+
+.signinbtn {
+    width: 90%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+
+    .signinbtn {
+        width: 100%;
+    }
+}
